@@ -1,0 +1,133 @@
+@font-face {
+	font-family: 'poller_oneregular';
+	src: url('../fonts/pollerone/pollerone-webfont.eot');
+	src: url('../fonts/pollerone/pollerone-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/pollerone/pollerone-webfont.woff') format('woff'),
+		 url('../fonts/pollerone/pollerone-webfont.ttf') format('truetype'),
+		 url('../fonts/pollerone/pollerone-webfont.svg#poller_oneregular') format('svg');
+}
+@font-face {
+	font-family: 'leckerli_oneregular';
+	src: url('../fonts/leckerlione/leckerlione-regular-webfont.eot');
+	src: url('../fonts/leckerlione/leckerlione-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/leckerlione/leckerlione-regular-webfont.woff') format('woff'),
+		 url('../fonts/leckerlione/leckerlione-regular-webfont.ttf') format('truetype'),
+		 url('../fonts/leckerlione/leckerlione-regular-webfont.svg#leckerli_oneregular') format('svg');
+}
+
+header{	
+	text-align:center;
+	
+}
+header img{
+	width:300px;
+    height:150px;
+}
+
+header ul li{
+	text-transform:uppercase;
+	display:inline-block;
+	padding: 0px 30px 0 10px;
+	font-size:15px;
+}
+
+header ul li a{
+	text-decoration:none;
+	font-family:fantasy;
+	color:blue;
+
+}
+
+header ul li a:hover{
+	background: grey;
+	color:red;
+}
+
+
+#section img{
+	width:250px;
+	height:200px;
+}
+#section ul li{
+	display:inline-block;
+	text-transform:uppercase;
+	margin:20px;
+	padding:20px;
+	width:280px;
+	text-align:center;
+	
+}
+
+#article1 img{
+	width: 1320px;
+	height:500px;
+	
+}
+footer {
+	background: black;
+	margin: 0;
+	padding: 20px;
+}
+footer {
+	margin: 0 auto;
+	padding: 0;
+	width: 1320px;
+	overflow:hidden;
+	
+}
+footer p {
+	color:white;
+	float: left;
+	margin:30px;
+	padding: 0;
+}
+
+footer ul {
+	display: block;
+	float: right;
+	margin: 0;
+	padding: 0;
+	width: 260px;
+	overflow:hidden;
+
+}
+footer ul li {
+	display: block;
+	float: left;
+	margin: 17px;
+	padding: 0;
+	width: 30px;
+}
+
+footer ul li #Github{
+	
+	background: url(../imagenes/git.png);
+	width:44px;
+	height:36px;
+	display:block;
+	
+}
+footer ul li #Udacity{
+	
+	background: url(../imagenes/udacity.png);
+	width:39px;
+	height:36px;
+	display:block;
+	
+}
+footer ul li #Udacity:hover{
+	
+	background: url(../imagenes/uda.jpg);
+	width:60px;
+	height:60px;
+	display:block;
+	
+}
+footer ul li #Codewars{
+	
+	background: url(../imagenes/code.jpg);
+	width:39px;
+	height:36px;
+	display:block;
+	
+}
